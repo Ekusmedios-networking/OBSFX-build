@@ -1,32 +1,29 @@
-# OBSFX ![Build Status](https://github.com/hydrotho/OBSFX/actions/workflows/main.yml/badge.svg)
+# OBSFX ![Estado del Build](https://github.com/Ekusmedios-networking/OBSFX-build/actions/workflows/main.yml/badge.svg)
 
-[English](README.md) | [中文](README_zh.md)
+> Verificado: Build exitoso con StreamFX 0.12.0 Beta 366
 
-> Verified: Successful build with StreamFX 0.12.0 Beta 366
+Este repositorio contiene un GitHub Action que permite compilar fácilmente el plugin StreamFX para OBS Studio.
 
-This GitHub repository contains a GitHub Action that allows users to easily build the StreamFX plugin for OBS Studio.
+StreamFX es un plugin para OBS Studio que añade una gran variedad de funciones al software, incluyendo nuevos filtros, transiciones y otras herramientas útiles para streamers y creadores de contenido.
 
-StreamFX is an OBS Studio plugin that adds a variety of features to the software, including new filters, transitions, and other useful tools for streamers and content creators.
+## Cómo Usarlo
 
-## How to Use
+1. Ve a la pestaña `Actions` de este repositorio
+   ![imagen](https://github.com/hydrotho/OBSFX/assets/42911474/7fbbc55f-a916-428e-a402-fb5c1bb56b36)
+2. Selecciona el workflow `Build`
+   ![imagen](https://github.com/hydrotho/OBSFX/assets/42911474/feb07c04-fb44-4aa1-8166-245ca3bd13c2)
+3. Haz clic en el botón `Run workflow`
+   ![imagen](https://github.com/hydrotho/OBSFX/assets/42911474/c5fa58b8-e1aa-4063-9cdb-215e2902ebfd)
+4. Espera a que el workflow finalice
+5. Descarga el plugin compilado desde `Artifacts`
+   ![imagen](https://github.com/hydrotho/OBSFX/assets/42911474/75d0d6ee-b833-4c26-b8be-040c699bf129)
 
-1. Fork this repository
-2. Click the `Actions` tab
-   ![image](https://github.com/hydrotho/OBSFX/assets/42911474/7fbbc55f-a916-428e-a402-fb5c1bb56b36)
-3. Choose the `Build` workflow
-   ![image](https://github.com/hydrotho/OBSFX/assets/42911474/feb07c04-fb44-4aa1-8166-245ca3bd13c2)
-4. Click the `Run workflow` button
-   ![image](https://github.com/hydrotho/OBSFX/assets/42911474/c5fa58b8-e1aa-4063-9cdb-215e2902ebfd)
-5. Wait for the workflow to complete
-6. Download the built plugin from `Artifacts`
-   ![image](https://github.com/hydrotho/OBSFX/assets/42911474/75d0d6ee-b833-4c26-b8be-040c699bf129)
-
-## Reference
+## Referencias
 
 [OBS Studio](https://github.com/obsproject/obs-studio)
 
 [StreamFX](https://github.com/Xaymar/obs-StreamFX)
 
-## License
+## Licencia
 
-This project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
